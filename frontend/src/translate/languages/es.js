@@ -185,8 +185,8 @@ const messages = {
       },
       queueModal: {
         title: {
-          add: "Agregar cola",
-          edit: "Editar cola",
+          add: "Agregar Linea",
+          edit: "Editar Linea",
         },
         form: {
           name: "Nombre",
@@ -195,7 +195,7 @@ const messages = {
         },
         buttons: {
           okAdd: "Añadir",
-          okEdit: "Ahorrar",
+          okEdit: "Guardar",
           cancel: "Cancelar",
         },
       },
@@ -227,7 +227,7 @@ const messages = {
         },
       },
       ticketsQueueSelect: {
-        placeholder: "Linhas",
+        placeholder: "Lineas",
       },
       tickets: {
         toasts: {
@@ -269,7 +269,7 @@ const messages = {
         noTicketsMessage:
           "No se encontraron tickets con este estado o término de búsqueda",
         buttons: {
-          accept: "Acceptar",
+          accept: "Aceptar",
         },
       },
       newTicketModal: {
@@ -288,7 +288,7 @@ const messages = {
           tickets: "Tickets",
           contacts: "Contactos",
           quickAnswers: "Respuestas rápidas",
-          queues: "Linhas",
+          queues: "Lineas",
           administration: "Administración",
           users: "Usuarios",
           settings: "Configuración",
@@ -304,7 +304,7 @@ const messages = {
         noTickets: "Sin notificaciones.",
       },
       queues: {
-        title: "Linhas",
+        title: "Lineas",
         table: {
           name: "Nombre",
           color: "Color",
@@ -312,7 +312,7 @@ const messages = {
           actions: "Comportamiento",
         },
         buttons: {
-          add: "Agregar cola",
+          add: "Agregar Linea",
         },
         confirmationModal: {
           deleteTitle: "Eliminar",
@@ -321,7 +321,7 @@ const messages = {
         },
       },
       queueSelect: {
-        inputLabel: "Linhas",
+        inputLabel: "Lineas",
       },
       quickAnswers: {
         title: "Respuestas rápidas",
