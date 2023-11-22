@@ -9,7 +9,7 @@ const DeleteTicketService = async (id: string): Promise<Ticket> => {
   if (!ticket) {
     throw new AppError("ERR_NO_TICKET_FOUND", 404);
   }
-
+  //const currentMessages = {archivedMessages:}
   await ticket.destroy();
 
   return ticket;

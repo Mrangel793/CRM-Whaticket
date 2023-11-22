@@ -74,6 +74,7 @@ class Ticket extends Model<Ticket> {
 
   @HasMany(() => Message)
   messages: Message[];
+
 }
 
 export default Ticket;

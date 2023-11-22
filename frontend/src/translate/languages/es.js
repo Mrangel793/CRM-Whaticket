@@ -251,8 +251,8 @@ const messages = {
       transferTicketModal: {
         title: "Transferir Ticket",
         fieldLabel: "Escriba para buscar usuarios",
-        fieldQueueLabel: "Transferir a la cola",
-        fieldConnectionLabel: "Transferir to conexión",
+        fieldQueueLabel: "Transferir a la fila",
+        fieldConnectionLabel: "Transferir a la línea",
         fieldQueuePlaceholder: "Seleccione una cola",
         fieldConnectionPlaceholder: "Seleccione una conexión",
         noOptions: "No se encontraron usuarios con ese nombre",
@@ -262,7 +262,7 @@ const messages = {
         },
       },
       ticketsList: {
-        pendingHeader: "Cola",
+        pendingHeader: "En Fila",
         assignedHeader: "Trabajando en",
         noTicketsTitle: "¡Nada acá!",
         connectionTitle: "Conexión que se está utilizando actualmente.",
@@ -382,7 +382,7 @@ const messages = {
           assignedTo: "Asignado a:",
           buttons: {
             return: "Devolver",
-            resolve: "Resolver",
+            resolve: "Resuelto",
             reopen: "Reabrir",
             accept: "Aceptar",
           },
